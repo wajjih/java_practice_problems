@@ -1,5 +1,5 @@
 package basic;
-// import java.util.Scanner;
+import java.util.Scanner;
 
 // https://www.w3schools.com/java/java_user_input.asp
 // use this link as a tutorial on how to use the Scanner class to get user input.
@@ -14,6 +14,17 @@ public class ScannerInput {
     Expected Output:
       25 x 5 = 125
     */
+    Scanner myObj = new Scanner(System.in);
+      //System.out.println("Product");
+      //int num1 = myObj.nextInt();
+      //int num2 = myObj.nextInt();
+      
+      
+      //System.out.println(num1 +  " x " + num2 + " = " + num1 * num2);
+
+
+
+
 
 
 
@@ -31,9 +42,17 @@ public class ScannerInput {
       125 / 24 = 5
       125 mod 24 = 5
     */
-
-
-    // 3. Write a Java program that takes a number as input and prints its multiplication table upto 10.
+     /*System.out.println("Every Methods");
+      int num1 = myObj.nextInt();
+      int num2 = myObj.nextInt();
+      System.out.println(num1 +  " + " + num2 + " = " + (num1 + num2));
+      System.out.println(num1 +  " - " + num2 + " = " + (num1 - num2));
+      System.out.println(num1 +  " x " + num2 + " = " + num1 * num2);
+      System.out.println(num1 +  " / " + num2 + " = " + num1 / num2);
+      System.out.println(num1 +  " mod " + num2 + " = " + num1 % num2);
+      */
+    
+      // 3. Write a Java program that takes a number as input and prints its multiplication table upto 10.
     /*
     Test Data:
       Input a number: 8
@@ -44,6 +63,11 @@ public class ScannerInput {
       ...
       8 x 10 = 80
     */
+    int num1 = myObj.nextInt();
+    int num2 = myObj.nextInt();
+    for (num2 = 1; num2 < 10; num2++)
+    System.out.println(num1 +  " x " + num2 + " = " + num1 * num2);
+  
 
     
 
@@ -56,6 +80,9 @@ public class ScannerInput {
 J  J  aaaaa   V V  aaaaa                                                
  JJ  a     a   V  a     a
     */
+    
+
+
 
 
   }

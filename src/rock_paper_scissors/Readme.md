@@ -34,3 +34,11 @@ step 4: Ask user if they should want to play again. If yes restart, if no teremi
 RockyV1.java ->
 
 > Do everything in static functions or just the main function.
+
+
+## Game Veersion 2
+
+### complete these examples first
+> structs or classes as input to function
+
+Sate share.

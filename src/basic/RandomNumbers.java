@@ -4,7 +4,7 @@ package basic;
 // https://www.geeksforgeeks.org/random-setseed-method-in-java-with-examples/
 
 // use these links to learn more about random numbers
-// import java.lang.Math;
+import java.lang.Math;
 // import java.util.Random;
 
 // hint
@@ -18,6 +18,14 @@ public class RandomNumbers {
     testProblem();
 
     // 1. Generate a random number and print to screen.
+    int max = 3;
+    int min = 1;
+    int range = max - min + 1;
+    for (int i = 0; i < 10; i++) { 
+      int rand = (int)(Math.random() * range) + min; 
+    System.out.println(rand);
+    }
+
 
     // 2. Generate a random number between 1 and 3. print that number.
 

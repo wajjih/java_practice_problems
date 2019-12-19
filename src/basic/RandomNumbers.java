@@ -5,7 +5,8 @@ package basic;
 
 // use these links to learn more about random numbers
 import java.lang.Math;
-// import java.util.Random;
+import java.util.Random;
+import java.util.Scanner;
 
 // hint
 // use Math library for now
@@ -18,6 +19,13 @@ public class RandomNumbers {
     testProblem();
 
     // 1. Generate a random number and print to screen.
+    Random rando = new Random();
+    int rand_int1 = rando.nextInt(1000); 
+
+    System.out.println(rand_int1);
+
+
+    // 2. Generate a random number between 1 and 3. print that number.
     int max = 3;
     int min = 1;
     int range = max - min + 1;
@@ -26,12 +34,30 @@ public class RandomNumbers {
     System.out.println(rand);
     }
 
-
-    // 2. Generate a random number between 1 and 3. print that number.
-
     // 3. Mental Health Therapist program:
     // Ask usere for their name?
     // random print "I believe in you!" or "You suck!"
+    System.out.println("Enter Name");
+    Scanner myObj = new Scanner(System.in);
+    String username = myObj.next();
+    Random answer = new Random();
+   int randInt2 = answer.nextInt(2); 
+   System.out.println("Username : " + username); 
+   if (randInt2==0){
+      System.out.println("I believe in you!");
+    }else{
+      System.out.println("You suck!");
+    }
+   
+   
+
+
+   
+
+    
+
+
+
 
     // 4. Get user input, print matching string to number
     // 1 -> "rock", 2 -> "paper", 3 -> "scissors"

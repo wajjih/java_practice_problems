@@ -10,6 +10,8 @@ public class IfStatements {
       false
       */
         
+      //My Question 1 answer
+      
       /*int x =7;
     if (x>2){
       System.out.println("True");
@@ -25,6 +27,10 @@ public class IfStatements {
       true
       false
     */
+    
+    
+    //My Questions 2 Answers
+    
     /*double x = 2;
     double y = 3;
     if (x % 2 == 0){
@@ -50,10 +56,10 @@ public class IfStatements {
       true
     */
     
-    
+    //Question 3 answers
     Scanner myObj = new Scanner(System.in);
     int x = myObj.nextInt() ;
-    int y = myObj.nextInt ();3
+    int y = myObj.nextInt ();
     if ( x == y){
       System.out.println("true");
     }else{

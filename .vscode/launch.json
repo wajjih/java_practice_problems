@@ -2,23 +2,41 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - RandomNumbers",
             "request": "launch",
             "mainClass": "basic.RandomNumbers",
+=======
+            "name": "CodeLens (Launch) - IfStatements",
+            "request": "launch",
+            "mainClass": "basic.IfStatements",
+>>>>>>> 7017b1e3cc70555d67c6236e6ba2ccfa44450299
             "projectName": "java_practice_problems"
         },
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - ScannerInput",
             "request": "launch",
             "mainClass": "basic.ScannerInput",
+=======
+            "name": "CodeLens (Launch) - RandomNumbers",
+            "request": "launch",
+            "mainClass": "basic.RandomNumbers",
+>>>>>>> 7017b1e3cc70555d67c6236e6ba2ccfa44450299
             "projectName": "java_practice_problems"
         },
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "CodeLens (Launch) - OtherExamples",
             "request": "launch",
             "mainClass": "basic.OtherExamples",
+=======
+            "name": "CodeLens (Launch) - ScannerInput",
+            "request": "launch",
+            "mainClass": "basic.ScannerInput",
+>>>>>>> 7017b1e3cc70555d67c6236e6ba2ccfa44450299
             "projectName": "java_practice_problems"
         },
         {
